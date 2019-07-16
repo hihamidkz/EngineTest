@@ -1,6 +1,6 @@
 #include <iostream>
+#include <map>
 
-#include "Engine.h"
 #include "TestStand.h"
 
 using namespace std;
@@ -25,7 +25,7 @@ int main() {
 	engine->c = 0.1;
 
 	TestStand<Engine> testStand(engine, ambT);
-
+	cout << "Time to overheat: " << testStand.startTest() << endl;
 	system("pause");
 	return 0;
 }
