@@ -115,7 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Director.h" />
     <ClInclude Include="Engine.h" />
+    <ClInclude Include="EngineBuilder.h" />
     <ClInclude Include="TestStand.h" />
   </ItemGroup>
   <ItemGroup>
